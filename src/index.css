@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    --main-bg-color: #ECF2FF;
+    --result-bg-color: #1125D6;
+    --text-color-blue: #CAC9FF;
+
+    --dark-navy: #303B59;
+    --dark-red: #FF5555;
+    --dark-yellow: #FFB21E;
+    --dark-green: #00BB8F;
+    --dark-blue: #1125D6;
+
+    --light-red: #ffeeee;
+    --light-yellow: #fffbf5;
+    --light-green: #effaf7;
+    --light-blue: #edeef9;
+
+    --linear-gradient-color1: rgba(77, 33, 201, 1);
+    --linear-gradient-color2: rgba(119, 85, 255, 0.2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
 }
